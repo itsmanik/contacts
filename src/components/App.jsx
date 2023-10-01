@@ -1,9 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Header from "./Header.jsx";
+import Contacts from "./Contacts.jsx";
 
 function App() {
     return <div>
-        <h1>Hello world</h1>
+        <Header />
+        <Contacts />
     </div>
 }
 
