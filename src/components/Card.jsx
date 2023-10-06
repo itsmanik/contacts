@@ -3,9 +3,11 @@ import ReactDOM from "react-dom";
 
 
 function Card(props) {
-    return <div>
+    return <div className="card">
         <h2>{props.name}</h2>
-        <img src={props.imgUrl}></img>
+        <div>
+            <img src={props.imgUrl}></img>
+        </div>
         <p>{props.phone}</p>
         <p>{props.email}</p>
     </div>

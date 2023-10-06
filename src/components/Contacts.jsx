@@ -8,7 +8,7 @@ function createCard(card) {
 }
 
 function Contacts() {
-    return <div>
+    return <div className="cards">
         {contacts.map(createCard)}
     </div>
 }
